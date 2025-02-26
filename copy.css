@@ -24,13 +24,22 @@
 }
 
 body{
-    background-color: rgb(153, 151, 151);
+    background-color: rgb(173, 171, 171);
+}
+
+
+
+.j{
+    position: fixed;
+    top: 7%;
+    left: 90%;
+  
 }
 
 .c{
-position: relative;
-z-index: 5;
-padding-top: 100px;
-padding-left: 100px;
+    position: fixed;
+    top: 7%;
+    left: 5%;
+
 
 }
