@@ -1,45 +1,109 @@
-.inicio{
+
+.inicio {
     color: green;
     background: beige;
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(82, 82, 233);
     outline-style: solid;
     outline-color: cyan;
     position: relative;
     z-index: 4;
     outline-width: 20px;
-    padding-left:1100px;
     width: 100%;
     height: 200px;
+    text-align: center; 
 }
 
 
-.texto{
-    display: inline;
+.texto {
+    display: flex;                    
+    justify-content: center;        
+    align-items: center;              
     color: purple;
-    position: relative;
+    position: relative;               
     z-index: 4;
-   padding-left: 1100px;
-   
+    padding: 20px;                    
+    text-align: center;              
+    height: auto;                    
+    width: 100%;                      
+    box-sizing: border-box;        
+    margin: 0 auto;  
+    top: 92%;
+  }             
+
+
+.texto p {
+    margin: 0 20px;    
+            
 }
 
-body{
+
+.texto a {
+    text-decoration: none;           
+    color: purple;         }          
+
+
+
+
+body {
     background-color: rgb(173, 171, 171);
 }
 
 
-
-.j{
-    position: fixed;
-    top: 7%;
-    left: 90%;
-  
+.c {
+    position: fixed;               
+    top: 7%;                         
+    left: 5%;                         
+    z-index: 8;  
+        
 }
 
-.c{
-    position: fixed;
-    top: 7%;
-    left: 5%;
 
-
+.j {
+    position: fixed;                 
+    top: 7%;                          
+    left: 90%;                        
+    z-index: 8;                        
 }
+
+.inicio h1 {
+    position: absolute;  
+    top: 34%;  
+    left: 47%; 
+    color: green;
+    z-index: 5;  }
+
+    .texto1{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        top: 20%; 
+         font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: purple;
+    }
+
+    .subtitulo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .texto2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: purple;
+    }
+
+ .textinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: purple;
+ }
