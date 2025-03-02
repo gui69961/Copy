@@ -51,8 +51,8 @@ body {
 
 
 .c {
-    position: fixed;               
-    top: 7%;                         
+    position: absolute;               
+    top: 25%;                         
     left: 5%;                         
     z-index: 8;  
         
@@ -60,7 +60,7 @@ body {
 
 
 .j {
-    position: fixed;                 
+    position: absolute;                 
     top: 7%;                          
     left: 90%;                        
     z-index: 8;                        
@@ -107,3 +107,35 @@ body {
     font-size: 20px;
     color: purple;
  }
+
+ .alg {
+    display: inline-flex;
+    justify-content: center;  
+    align-items: center;      
+    padding-left: 32%;
+               
+ }
+ 
+ .the {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    
+       
+   
+ }
+ 
+ .como {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .texto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
