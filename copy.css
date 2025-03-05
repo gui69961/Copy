@@ -139,3 +139,31 @@ body {
     align-items: center;
  }
  
+
+ .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+ }
+
+ .texto4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+ }
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+
+.tabela th, td{
+    border: 2px dashed;
+    color: red;
+}
+
