@@ -1,4 +1,13 @@
 
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .inicio {
     color: green;
     background: beige;
@@ -165,5 +174,74 @@ body {
 .tabela th, td{
     border: 2px dashed;
     color: red;
+    margin: 20%;
 }
 
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30%;
+    margin: 4%;
+  overflow: hidden;
+   
+}
+
+.lista{
+    position: relative;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   z-index: 2;
+  
+}
+
+.lista p{
+    position: relative;
+    right: 650px;
+    bottom: 30px;
+    
+}
+
+.links a{
+    position: relative;
+    display: flex;
+    color: red;
+    left: 45%;
+    bottom: 170px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90%;
+ 
+}
+
+
+.p1 {
+    border-style: solid;
+    border-color: beige;
+    background-color: beige;
+    width: 100%;
+    display: flex;                    
+    justify-content: space-between;    
+    align-items: center;              
+    height: 100px;                    
+    position: relative;
+    z-index: 2;
+  }
+  
+  .p1 img {
+    position: relative;
+  }
+  
+  .p1 p {
+    position: absolute;
+    text-align: center;               
+    width: 100%;        
+    font-size: 18px;                  
+    margin: 0;
+  }
+  
