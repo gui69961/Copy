@@ -163,19 +163,22 @@ body {
     margin: 100px;
  }
 
-.tabela{
+ .tabela {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    
+ 
+}
+
+.tabela th {
+    border: 3px dashed red; /* Define as bordas das células como vermelhas */
+    color: black; /* Define o texto das células como preto */
+    padding: 10px; /* Adiciona um pouco de espaçamento dentro das células */
 }
 
 
-.tabela th, td{
-    border: 2px dashed;
-    color: red;
-    margin: 20%;
-}
+
 
 .lista{
     display: flex;
@@ -244,4 +247,6 @@ body {
     font-size: 18px;                  
     margin: 0;
   }
+
+
   
